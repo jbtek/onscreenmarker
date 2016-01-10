@@ -1,0 +1,61 @@
+﻿/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {color: #000000;font-family: "open sans" !important;font-size: 12px;font-weight: normal;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: "open sans" !important;font-weight: 600;}
+.text-cnt{left: 190px;position: absolute;top: 80px; cursor:default}
+.text-cnt > p{font-size:18px;}
+.img-edit{position:relative;}
+.tools-cnt ul{margin-bottom:10px;}
+.tools-cnt ul li{margin: 0 5px 0 0;height: 35px;text-align: center;width: 48px;background:#ccc;}
+.active {background:#7B6262 !important;}
+
+.tools-cnt ul li img {margin-top: 5px;}
+
+.rectangle {border: 2px solid #FF0000;position: absolute;}
+.marker-place {background:transparent;height: 469px;left: 124px;position: absolute;top: 47px;width: 692px;}
+.toolicon{z-index:100};
+
+
+#paint-cnt {
+	border: 10px solid gray;
+	height: 100%;
+	position: relative;
+}
+
+#tmp_canvas {
+	position: absolute;
+	left: 0px; right: 0;
+	bottom: 0; top: 0; opacity:0.4;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 600px){
+
+}
